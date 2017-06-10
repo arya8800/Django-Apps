@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Go Next</title>
+ <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/static/css/style,css.css" rel="stylesheet">
+   <link href="/static/css/font-awesome.min.css" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="/static/css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="/static/css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="/static/css/component.css" />
+</head>
+<body>
+<DIV class="header">
+
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-12">
+<div class="col-md-4">
+<div class="/static/logo">
+<h3>GONEXT MEDIA</h3>
+</div>
+</div>
+<div class="col-md-8 pull-right">
+<div class="log-in">
+<span><i class="fa fa-user user" aria-hidden="true"></i>Signup</span><span><i class="fa fa-power-off off" aria-hidden="true"></i>Logout</span>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</DIV>
+
+<div class="menu">
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+   
+    <ul class="nav navbar-nav">
+      <li><a href="/index"><i class="fa fa-home home" aria-hidden="true"></i>Dashboard</a></li>
+      <li><a href="/my-profile"><i class="fa fa-user-circle-o home" aria-hidden="true"></i>
+My Profile</a></li>
+      <li><a href="/reffral"><i class="fa fa-location-arrow home" aria-hidden="true"></i>Refferel Link</a></li>
+      <li><a href="/today-task"><i class="fa fa-book home" aria-hidden="true"></i>Today Task</a></li>
+       <li><a href="/payouthistory"><i class="fa fa-history home" aria-hidden="true"></i>Payout History</a></li>
+        <li><a href="/manage-compane"><i class="fa fa-file-o home" aria-hidden="true"></i>Manage Compaign</a></li>
+         <li><a href="/kyc"><i class="fa fa-pencil home" aria-hidden="true"></i>KYC</a></li>
+          <li><a href="/network"><i class="fa fa-book home" aria-hidden="true"></i>Network</a></li>
+           <li><a href="/sales"><i class="fa fa-address-book-o home" aria-hidden="true"></i>Sales</a></li>
+            <li><a href="/Promotional"><i class="fa fa-address-book-o home" aria-hidden="true"></i>Promotionl Income</a></li>
+             <li><a href="/rewards"><i class="fa fa-gift home" aria-hidden="true"></i>Rewards</a></li>
+    </ul>
+  </div>
+</nav>
+</div>
+<div class="welcome-haeder">
+<div class="container">
+<div class="row">
+<div class="col-md-3 ">
+<div class="main-box">
+<div class="/static/logo-1">
+<img src="/static/logo/logo.jpg">
+</div>
+<div class="text">
+<h3>ARYA ADITYA</h3>
+<p>ID: 91018320</p>
+</div>
+</div>
+</div>
+<div class="col-md-9 ">
+<div class="gonext-wel">
+<h3>Rewards</h3>
+</div>
+<div class="row">
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="container">
+	<div class="row">
+      <div class="col-lg-12">
+         
+<table class="table table-bordered table-hover" id="tableAddRow">
+<thead>
+<tr>
+<th>Reward</th>
+<th>Achieved Date</th>
+
+</tr>
+</thead>
+<tbody>
+
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<div class="border-content">
+<p>Right Now there is no rewards</p>
+</div>
+</div>
+</div>
+</div>
+
+
+      
+            
+
+
+
+
+
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/js/bootstrap.min.js"></script>
+<script>
+$(document).ready(function () {
+    $('.addBtn').on('click', function () {
+        //var trID;
+        //trID = $(this).closest('tr'); // table row ID 
+        addTableRow();
+    });
+     $('.addBtnRemove').click(function () {
+        $(this).closest('tr').remove();  
+    })
+    var i = 1;
+    function addTableRow()
+    {
+        var tempTr = $('<tr><td><input type="text" id="userName_' + i + '" class="form-control"/></td><td><input type="text" id="email_' + i + '" class="form-control" /></td><td><input type="text" id="password_' + i + '" class="form-control" /></td><td><span class="glyphicon glyphicon-minus addBtnRemove" id="addBtn_' + i + '"></span></td></tr>').on('click', function () {
+           $(this).closest('tr').remove(); 
+           $(document.body).on('click', '.TreatmentHistoryRemove', function (e) {
+                $(this).closest('tr').remove();  
+            });
+        });
+        $("#tableAddRow").append(tempTr)
+        i++;
+    }
+});
+</script>
+
+</body>
+</html>

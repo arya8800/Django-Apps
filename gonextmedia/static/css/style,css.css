@@ -1,0 +1,414 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ margin:0; padding:0;}
+/*Panel tabs*/
+.tr {
+   
+    padding: 3px 4px !important; position:relative !important; background:none !important; 
+}
+.box-2 > h3 {
+    font-family: LATO;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.nopadding{ margin:0; padding:0;}
+.btn-group {
+    background: #8e1026 none repeat scroll 0 0;
+    border: 1px solid black;
+    color: white;
+    line-height: 26px;
+    width: 112px;
+}
+.margin-top {
+    margin-top: 42px;
+}
+a.defaltt {
+    padding: 8px 19px;
+    background: #8E1026;
+    color: #fff;
+}
+.showw {
+    margin-top: 6px;
+}
+.border-round {
+    border: 1px solid blanchedalmond;
+}
+.border-round h3 {
+    color: #8E1026;
+    text-align: center;
+    font-size: 17px;
+}
+.mynav li{ border-right:1px solid black;}
+.mynav li:last-child{ border-right:0;}
+.mynav a{ font-size:12px !important; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; text-align:center;}
+.border-bottem {
+    border-bottom: 1px solid gray;
+}
+
+.log-in {
+    float: right;
+}
+.header {
+    background: black none repeat scroll 0 0;
+}
+.logo h3 {
+    color: white;
+    font-family: "Lato",sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-top: 15px;
+}
+.log-in > span {
+    color: white;
+    font-family: 'Lato', sans-serif;: ;
+    font-size: 14px;
+}
+.log-in {
+    float: right;
+   
+    letter-spacing: 0;
+    margin-top: 9px;
+	
+}
+.home {
+    font-size: 18px !important;
+    margin-right: 8px;
+}
+.navbar-inverse .navbar-nav > li > a{ font-family: 'Lato', sans-serif;}
+.fa.fa-power-off.off {
+    font-size: 13px;
+    margin-left: 27px;
+    margin-right: 4px;
+}
+i.user {
+    font-size: 13px;
+    margin-right: 5px;
+}
+.gonext-wel > h3 {
+    color: sienna;
+    font-family: "Lato",sans-serif;
+    font-size: 27px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-align: center;
+}
+.gonext-wel {
+    margin-top: 71px;
+}
+.box-1 > h3 {font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    
+}
+i.profile {
+    color: black;
+    font-size: 42px;
+    margin-top: 15px;
+}
+.box-1 {
+    border: 1px solid burlywood;
+    box-shadow: -2px 2px 5px 0;
+    height: 215px;
+    margin-bottom: 50px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.padding {
+    background: brown none repeat scroll 0 0;
+    color: white;
+    font-size: 13px;
+    padding: 5px 11px;
+    text-align: center;
+}
+.padding a:hover{ text-decoration:none;}
+.button {
+    margin-top: 28px;
+}
+.margi-top {
+    margin-top: 20px;
+}
+
+.logo-1 {
+    margin-top: 22px;
+    width: 100%;
+}
+.main-box {
+    border: 1px solid buttonface;
+   
+    margin-top: 7px;
+    padding: 1px 0;
+    text-align: center;
+}
+.text{}
+.text > h3 {
+    font-family: lato;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-left: 21px;
+}
+.text p { margin-left: 21px;
+    font-family: lato;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.logo-1 img {
+  
+    width: 51%;
+}
+.noppading{ margin:0 0 0 -15px; padding:0;}
+
+.fa.fa-phone.mobile {
+    color: #8e1026;
+    font-size: 13px;
+    margin-right: 5px;
+}
+.earnmoney > h3 {
+    color: #8e1026;
+    font-family: lato;
+    font-size: 19px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 17px;
+}
+.earnmoney > p {
+    font-family: lato;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.fa.fa-map-marker.map {
+    color: #8e1026;
+    font-size: 13px;
+    margin-right: 5px;
+}
+th {
+    font-family: trebuchet ms;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.fa.fa-inr.inr {
+    color: #8e1026;
+    font-size: 15px;
+    margin-right: 3px;
+}
+.center {
+    border: medium none !important;
+    font-family: lato;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+.fifty {
+    width: 50%;
+}
+tr {
+    text-align: center;
+}
+.table-bordered > tbody > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > thead > tr > th {
+    border: 1px solid #ddd;
+    font-family: lato;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+.my-box {
+   
+    box-shadow: 2px 3px 4px 0;
+    height: 140px;
+    margin-top: 26px;
+    padding: 10px 0;
+    text-align: center;
+}
+.my-box > h3 {
+    color: #8e1026;
+    font-family: lato;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 37px;
+}
+.my-box > p {
+    color: black;
+    font-family: lato;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+.sorry-content h2 {
+    color: #8e1026;
+    font-family: lato;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.sorry-content > p {
+    color: #8e1026;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+.heading > p {
+    color: #8e1026;
+    font-family: lato;
+    font-size: 21px;
+    letter-spacing: 2px;
+    margin-bottom: 47px;
+    margin-top: 20px;
+    text-align: center;
+}
+.border-content > p {
+    border: 1px solid #eee;
+    font-family: lato;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: -20px;
+    padding: 9px 0;
+    text-align: center;
+}
+.icon > img {
+    width: 100%;
+}
+.icon {
+    margin-bottom: 30px;
+    width: 66%;
+}
+select {
+    font-family: lato;
+    font-size: 14px;
+    height: 34px;
+    padding: 0 13px;
+    width: 77%;
+}
+.flie { margin-right:23px;
+    background:#b0b0b0;
+    color: white;
+    font-family: lato;
+    font-size: 13px;
+    line-height: 41px;
+    padding: 6px 37px;
+    text-align: center !important;
+}
+.butt {
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.text-2 > p {
+    color: #8e1026;
+    font-family: lato;
+    font-size: 14px;
+    text-align: justify;
+}
+.text-2 {
+    width: 76%;
+}
+.butt a {
+    color: black;
+    font-family: lato;
+    font-size: 12px;
+}
+.butt a:hover{
+    color: black; text-decoration:none;
+     
+}
+.list > p {
+    color: black;
+    font-family: lato;
+    font-weight: 500;
+}
+.box-2 {
+    margin-top: 47px;
+}
+.text-center.taday-task > h3 {
+    color: #8e1026;
+    font-family: lato;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.date-clender {
+    margin-top: 36px;
+    text-align: center;
+}
+.date {
+    color: #8e1026;
+    font-family: lato;
+    font-size: 16px;
+    margin-right: 5px;
+}
+.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all {
+    color: #8e1026; border-radius:0px important;
+    margin: 0;
+   background: #eee none repeat scroll 0 0;
+    color: black;
+}
+.ui-icon.ui-icon-circle-triangle-w {
+    color: black;
+    font-size: 15px;
+}
+td, th {
+    padding: 0 6px;
+}
+.ui-icon.ui-icon-circle-triangle-e {
+    color: black;
+    margin-left: 5px;
+}
+.fa.fa-search.seach {
+    background: #8e1026 none repeat scroll 0 0;
+    color: white;
+    font-size: 18px;
+    padding: 8px 26px;
+}
+.ui-icon.ui-icon-circle-triangle-w:hover{ color:black;}
+/*
+ * See it in action here: http://jsfiddle.net/seydoggy/6s92p51a/
+ */
+.panel-table {
+    display:table;
+}
+.panel-table > .panel-heading {
+    display: table-header-group;
+    background: transparent;
+}
+.panel-table > .panel-body {
+    display: table-row-group;
+}
+.panel-table > .panel-body:before,
+.panel-table > .panel-body:after {
+    content:none;
+}
+.panel-table > .panel-footer {
+    display: table-footer-group;
+    background: transparent;
+}
+.panel-table > div > .tr {
+    display: table-row;
+}
+.panel-table > div:last-child > .tr:last-child > .td {
+    border-bottom: none;
+}
+.panel-table .td {
+    display: table-cell;
+    padding: 15px 32px;
+    border: 1px solid #ddd;
+    border-top: none;
+    border-left: none;
+}
+a.botton {
+    padding: 9px 21px;
+    background: #8E1026;
+    color: white;
+}
+a.botton:hover{ color:white;}
+.panel-table .td:last-child {
+    border-right: none;
+}
+.bannar {
+    width: 100%;
+}
+.bannar img{
+    width: 60%;
+}
+@media (max-width:480px){ body{ overflow-x:hidden;}
+	
+	}
